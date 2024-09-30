@@ -10,7 +10,7 @@ import json
 from flask import Flask, render_template
 
 
-with open("data/index.json", encoding="UTF-8") as JSONDATA:
+with open("portfolio-website/data/index.json", encoding="UTF-8") as JSONDATA:
     DICTDATA = json.load(JSONDATA)
 
 

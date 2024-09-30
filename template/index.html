@@ -52,37 +52,47 @@
                 <ul class="menu scroll-nav-responsive d-flex">
                     <li>
                         <a class="scroll-to" href="#home">
-                            <i class="las la-home"></i> <span>Home</span>
+                            <span>Home</span> <i class="las la-home"></i>
                         </a>
                     </li>
                     <li>
                         <a class="scroll-to" href="#about">
-                            <i class="lar la-user"></i> <span>About</span>
+                            <span>About</span> <i class="lar la-user"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="scroll-to" href="#resume">
-                            <i class="las la-briefcase"></i> <span>Resume</span>
+                        <a class="scroll-to" href="#research">
+                            <span>Research Background</span> <i class="las la-search"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="scroll-to" href="#services">
-                            <i class="las la-stream"></i> <span>Services</span>
+                        <a class="scroll-to" href="#experience">
+                            <span>Experience</span> <i class="las la-briefcase"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#education">
+                            <span>Education</span> <i class="las la-graduation-cap"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="scroll-to" href="#certifications">
+                            <span>Certifications</span> <i class="las la-stream"></i>
                         </a>
                     </li>
                     <li>
                         <a class="scroll-to" href="#skills">
-                            <i class="las la-shapes"></i> <span>Skills</span>
+                            <span>Skills</span> <i class="las la-shapes"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="scroll-to" href="#portfolio">
-                            <i class="las la-grip-vertical"></i> <span>Portfolios</span>
+                        <a class="scroll-to" href="#mentorship">
+                            <span>Mentorship</span> <i class="las la-chalkboard-teacher"></i>
                         </a>
                     </li>
                     <li>
-                        <a class="scroll-to" href="#testimonial">
-                            <i class="lar la-comment"></i> <span>Testimonial</span>
+                        <a class="scroll-to" href="#gallery">
+                            <span>Gallery</span> <i class="lar la-photo-video"></i>
                         </a>
                     </li>
                 </ul>
@@ -113,13 +123,23 @@
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#resume">
-                <span>Resume</span> <i class="las la-briefcase"></i>
+            <a class="scroll-to" href="#research">
+                <span>Research Background</span> <i class="las la-search"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#services">
-                <span>Services</span> <i class="las la-stream"></i>
+            <a class="scroll-to" href="#experience">
+                <span>Experience</span> <i class="las la-briefcase"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#education">
+                <span>Education</span> <i class="las la-graduation-cap"></i>
+            </a>
+        </li>
+        <li>
+            <a class="scroll-to" href="#certifications">
+                <span>Certifications</span> <i class="las la-stream"></i>
             </a>
         </li>
         <li>
@@ -128,26 +148,26 @@
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#portfolio">
-                <span>Portfolios</span> <i class="las la-grip-vertical"></i>
+            <a class="scroll-to" href="#mentorship">
+                <span>Mentorship</span> <i class="las la-chalkboard-teacher"></i>
             </a>
         </li>
         <li>
-            <a class="scroll-to" href="#testimonial">
-                <span>Testimonial</span> <i class="lar la-comment"></i>
+            <a class="scroll-to" href="#gallery">
+                <span>Gallery</span> <i class="lar la-photo-video"></i>
             </a>
         </li>
     </ul>
 
     <div class="left-sidebar">
-        <div class="sidebar-header d-flex align-items-center justify-content-between">
-            <img src="{{url_for('static', filename='images/logo.png')}}" alt="Logo">
+        <div class="sidebar-header justify-content-between">
+            
             <span class="designation">{{body.designation}}</span>
         </div>
-        <img class="me" src="{{url_for('static', filename='images/profile_photo/me.jpg')}}" alt="Me">
-        <h2 class="email">{{body.mail_id}}</h2>
+        <img class="me" src="{{url_for('static', filename='images/me.png')}}" alt="Me">
+        <p class="email">{{body.mail_id}}</p>
         <h2 class="address">{{body.address}}</h2>
-        <p class="copyright">&copy; {{body.copyrights}}</p>
+        <!-- <p class="copyright">&copy; {{body.copyrights}}</p> -->
         <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
         {%for item in body.social_links%}
             <li>
@@ -169,10 +189,9 @@
                         <img src="{{url_for('static', filename='images/logo.png')}}" alt="Logo">
                         <span class="designation">{{body.designation}}</span>
                     </div>
-                    <img class="me" src="{{url_for('static', filename='images/profile_photo/me.jpg')}}" alt="Me">
+                    <img class="me" src="{{url_for('static', filename='static/images/me.jpeg')}}" alt="Me">
                     <h2 class="email">{{body.mail_id}}</h2>
                     <h2 class="address">{{body.address}}</h2>
-                    <p class="copyright">&copy; {{body.copyrights}}</p>
                     <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
                     {%for item in body.social_links%}
                         <li>
@@ -197,11 +216,11 @@
                                 <h1 class="scroll-animation" data-animation="fade_from_bottom">Greetings from <span>{{header.title}}</span>. {{body.section.hero.tag_line}}</h1>
                             </div>
                             <p class="scroll-animation" data-animation="fade_from_bottom">{{body.section.hero.description}}</p>
-                            <a href="#portfolio" 
+                            <a href="PrathmeshPethkar.pdf" 
                                 class="go-to-project-btn scroll-to scroll-animation" 
-                                data-animation="rotate_up">
-                                <img src="{{url_for('static', filename='images/round-text.png')}}" alt="Rounded Text">
-                                <i class="las la-arrow-down"></i>
+                                data-animation="rotate_up" download>
+                                <img src="{{url_for('static', filename='images/resume.jpg')}}" alt="Resume">
+                                <!-- <i class="las la-arrow-down"></i> -->
                             </a>
                             <div class="facts d-flex">
                                 <div class="left scroll-animation" data-animation="fade_from_left">
@@ -235,30 +254,46 @@
                         </div>
                     </div>
                 </section>
-        
-                <!-- Resume Section -->
-                <section class="resume-area page-section scroll-to-page" id="resume">
+
+
+                <!-- Research Section -->
+                <section class="about-area page-section scroll-to-page" id="research">
+                    <div class="custom-container">
+                        <div class="about-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="lar la-search"></i> Research and Publication
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">{{body.section.about.about_tag_line|safe}}</h1>
+                            </div>
+                            <p class="scroll-animation" data-animation="fade_from_bottom">{{body.section.about.about_description|safe}}</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="resume-area page-section scroll-to-page" id="experience">
                     <div class="custom-container">
                         <div class="resume-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-briefcase"></i> Resume
+                                    <i class="las la-briefcase"></i> Experience
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Experience</h1>
                             </div>
         
                             <div class="resume-timeline">
-                            {%for item in body.section.resume|reverse%}
+                            {%for item in body.section.experience|reverse%}
                                 <div class="item scroll-animation" data-animation="fade_from_right">
-                                    <span class="date">{{body.section.resume[item].timeline}}</span>
-                                    {%if body.section.resume[item].position.__class__.__name__ == 'list'%}
-                                        {%for item1 in range(body.section.resume[item].position|length)%}
-                                            <h2>{{body.section.resume[item].position[item1]}}</h2>
-                                            <p>{{body.section.resume[item].company}}</p>
+                                    <span class="date">{{body.section.experience[item].timeline}}</span>
+                                    {%if body.section.experience[item].position.__class__.__name__ == 'list'%}
+                                        {%for item1 in range(body.section.experience[item].position|length)%}
+                                            <h2>{{body.section.experience[item].position[item1]}}</h2>
+                                            <p>{{body.section.experience[item].company}}</p>
                                         {%endfor%}
                                     {%else%}
-                                        <h2>{{body.section.resume[item].position}}</h2>
-                                        <p>{{body.section.resume[item].company}}</p>
+                                        <h2>{{body.section.experience[item].position}}</h2>
+                                        <p>{{body.section.experience[item].company}}</p>
                                     {%endif%}
                                 </div>
                             {%endfor%}
@@ -267,24 +302,54 @@
                     </div>
                 </section>
         
-                <!-- Services Section -->
-                <section class="services-area page-section scroll-to-page" id="services">
+                <!-- Education Section -->
+                <section class="resume-area page-section scroll-to-page" id="education">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-graduation-cap"></i> Education
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education</h1>
+                            </div>
+        
+                            <div class="resume-timeline">
+                            {%for item in body.section.education|reverse%}
+                                <div class="item scroll-animation" data-animation="fade_from_right">
+                                    <span class="date">{{body.section.education[item].timeline}}</span>
+                                    {%if body.section.education[item].degree.__class__.__name__ == 'list'%}
+                                        {%for item1 in range(body.section.education[item].degree|length)%}
+                                            <h2>{{body.section.education[item].degree[item1]}}</h2>
+                                            <p>{{body.section.education[item].school}}</p>
+                                        {%endfor%}
+                                    {%else%}
+                                        <h2>{{body.section.education[item].degree}}</h2>
+                                        <p>{{body.section.education[item].school}}</p>
+                                    {%endif%}
+                                </div>
+                            {%endfor%}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                <!-- Certifications Section -->
+                <section class="services-area page-section scroll-to-page" id="certifications">
                     <div class="custom-container">
                         <div class="services-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-stream"></i> Skills
+                                    <i class="las la-stream"></i> Certifications
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Certifications</h1>
                             </div>
         
                             <div class="services-items">
-                                {%for item in body.section.services%}
+                                {%for item in body.section.certifications%}
                                 <div class="service-item scroll-animation" data-animation="fade_from_bottom">
                                     <i class="las la-{{item.icon}}"></i>
                                     <h2>{{item.title}}</h2>
                                     <p>{{item.description}}</p>
-                                    <span class="projects">{{item.project_count}} Projects</span>
                                 </div>
                                 {%endfor%}
                             </div>
@@ -301,7 +366,7 @@
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
                                     <i class="las la-shapes"></i> my skills
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Advantages</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Skills</span></h1>
                             </div>
         
                             <div class="row skills text-center">
@@ -310,48 +375,61 @@
                                     <div class="skill">
                                         <div class="skill-inner">
                                             <img src="{{url_for('static', filename='images/skills/')}}{{item.image_path}}" alt="{{item.skill_name}}">
-                                            <h1 class="percent">{{item.proficiency}}</h1>
+                                            
                                         </div>
                                         <p class="name">{{item.skill_name}}</p>
                                     </div>
                                 </div>
+                                {%endfor%}s
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Mentorship Section -->
+                <section class="services-area page-section scroll-to-page" id="mentorship">
+                    <div class="custom-container">
+                        <div class="services-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-stream"></i> Mentorship
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Mentorship</h1>
+                            </div>
+        
+                            <div class="services-items">
+                                {%for item in body.section.mentorship%}
+                                <div class="service-item scroll-animation" data-animation="fade_from_bottom">
+                                    <i class="las la-{{item.icon}}"></i>
+                                    <h2>{{item.title}}</h2>
+                                    <p>{{item.description}}</p>
+                                </div>
                                 {%endfor%}
                             </div>
+        
                         </div>
                     </div>
                 </section>
         
                 <!-- Portfolio Section -->
-                <section class="portfolio-area page-section scroll-to-page" id="portfolio">
+                <section class="portfolio-area page-section scroll-to-page" id="gallery">
                     <div class="custom-container">
                         <div class="portfolio-content content-width">
                             <div class="section-header">
                                 <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                    <i class="las la-grip-vertical"></i> portfolio
+                                    <i class="las la-grip-vertical"></i> Gallery
                                 </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h1>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Gallery</h1>
                             </div>
         
                             <div class="row portfolio-items">
-                                {%for item in body.section.portfolio%}
+                                {%for item in body.section.gallery%}
                                 <div class="col-md-12 scroll-animation" data-animation="fade_from_left">
                                     <div class="portfolio-item portfolio-half">
                                         <div class="portfolio-item-inner">
-
-                                            <img src="{{url_for('static', filename='images/portfolio/')}}{{item.project_img_path}}" alt="Portfolio">
-        
-                                            <ul class="portfolio-categories">
-                                                <li>
-                                                    <a href="{{item.github_link}}" target="_blank">GitHub</a>
-                                                </li>
-                                                {%for item1 in item.tags%}
-                                                <li>
-                                                    <a href="">{{item1}}</a>
-                                                </li>
-                                                {%endfor%}
-                                            </ul>
+                                            <img src="{{url_for('static', filename='images/gallery/')}}{{item.img_path}}" alt="Gallery">
                                         </div>
-                                        <h2><a href="{{item.project_link}}" target="_blank">{{item.project_name}}</a></h2>
+                                        <h2>{{item.name}}</h2>
                                     </div>
                                 </div>
                                 {%endfor%}
@@ -362,7 +440,7 @@
                 </section>
         
                 <!-- Testimonial Section -->
-                <section class="testimonial-area page-section scroll-to-page" id="testimonial">
+                <!-- <section class="testimonial-area page-section scroll-to-page" id="testimonial">
                     <div class="custom-container">
                         <div class="testimonial-content content-width">
                             <div class="section-header">
@@ -386,7 +464,6 @@
                                             </div>
                                             <p>{{item.statement|safe}}</p>
         
-                                            <!-- <a href="" class="project-btn">Project</a> -->
                                         </div>
                                     </div>
                                     {%endfor%}
@@ -404,7 +481,7 @@
 
                         </div>
                     </div>
-                </section>
+                </section> -->
             </div>
         </div>
     </main>

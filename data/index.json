@@ -1,27 +1,25 @@
 {
     "header": {
-        "title": "Sashwat K",
+        "title": "Prathmesh Pethkar",
         "meta": {
-            "description": "Welcome to Sashwat K's Portfolio. Sashwat K is a Senior Engineer @ IBM ISDL! Backend Developer | Systems Engineer | Embedded Firmware Enthusiast | DevOps Engineer | FOSS | Ham Radio Enthusiast",
-            "author": "Sashwat K"
+            "description": "Welcome to Prathmesh's Portfolio. Prathmesh is a CS Grad @ San Jose State Univeristy! Data Engineering | Big Data | Cloud Engineering | Machine Learning | Artificial Intelligence",
+            "author": "Prathmesh"
         }
     },
     "body": {
-        "designation": "Senior Engineer, IBM ISDL",
-        "mail_id": "hi@sashwat.in",
-        "address": "Based in Bangalore, India",
-        "copyrights": "2024 Sashwat K. All Rights Reserved",
+        "designation": "CS Grad @ SJSU | Data Engineer",
+        "mail_id": "prathmesh.pethkar2200@gmail.com",
+        "address": "Based in San Jose, CA",
         "social_links": {
-            "linkedin": "https://sashwat.in/linkedin",
-            "github": "https://sashwat.in/github",
-            "youtube": "https://sashwat.in/youtube",
-            "instagram": "https://sashwat.in/instagram",
-            "facebook": "https://sashwat.in/facebook"
+            "linkedin": "https://www.linkedin.com/in/prathmesh-pethkar-b480b4216/",
+            "github": "https://github.com/prathmesh2200",
+            "youtube": "https://www.youtube.com/@prathmeshpethkar3526",
+            "instagram": "https://www.instagram.com/prathmeshpethkar/"
         },
         "section": {
             "hero": {
-                "tag_line": "An Entrepreneur and A Tech Enthusiast.",
-                "description": "Sashwat's expertise lies in software as he invests his time diligently in its development. During his free hours, he graciously imparts knowledge and indulges in crafting hardware projects. To soothe his mind and find tranquility, he takes pleasure in the therapeutic activities of biking and cycling.",
+                "tag_line": "Harnessing the power of data, one query at a time",
+                "description": "Prathmesh is a dedicated software enthusiast, channeling his passion into every line of code he writes. When he’s not immersed in software development, you’ll find him exploring his love for hardware by creating innovative projects. Outside of tech, he enjoys the simple pleasures of biking and cycling, finding peace and inspiration on the open road. Always eager to share his knowledge, Prathmesh believes in lifelong learning and the joy of teaching others",
                 "flexes": {
                     "coding_hours": "40+",
                     "total_commits": "500+",
@@ -30,144 +28,112 @@
             },
             "about": {
                 "about_tag_line": "Every great Idea begin with<br>an even <span>better story</span>",
-                "about_description": "Sashwat, an enterprising individual, currently holds the esteemed position of Senior Engineer at IBM ISDL, where he actively contributes to the development of products for IBM Cloud. His professional journey began as a CAD Infrastructure DevOps Engineer at Xilinx Inc. To know more about this career, refer his <a href='https://sashuu69.github.io/curriculum-vitae/sash-cv.pdf'>CV</a>.<br>Throughout his educational tenure, he immersed himself in various activities to hone his expertise in Python, Operating Systems, and PCB Designing. In parallel, he nurtured his entrepreneurial acumen by initiating and working on multiple startup ventures.<br>During his leisure time, Sashwat embraces a continuous pursuit of growth, dedicating himself to upgrading his skills, exploring ham radio, contributing to open source projects, and indulging in biking adventures. He is recognized as an SWL in the Ham Radio Community and holds membership in the esteemed group, <a href='http://www.rasahams.in/'>RASA Hams</a>, situated in Thiruvananthapuram, India. His passion for biking is evident as showcased on his Instagram account."
+                "about_description": "Prathmesh Pethkar is a passionate software developer and a creative thinker, dedicated to turning complex problems into elegant solutions. With a keen interest in machine learning and big data, he constantly seeks to expand his knowledge and skills. When he’s not coding, you can find him building innovative hardware projects or enjoying the serenity of the outdoors on his bike. Prathmesh believes in the power of collaboration and loves to mentor others on their learning journeys."
             },
-            "resume": {
+            "research": {
+                "about_tag_line": "Every great Idea begin with<br>an even <span>better story</span>",
+                "about_description": "Prathmesh Pethkar is a passionate software developer and a creative thinker, dedicated to turning complex problems into elegant solutions. With a keen interest in machine learning and big data, he constantly seeks to expand his knowledge and skills. When he’s not coding, you can find him building innovative hardware projects or enjoying the serenity of the outdoors on his bike. Prathmesh believes in the power of collaboration and loves to mentor others on their learning journeys."
+            },
+            "experience": {
                 "0": {
-                    "timeline": "2012 - 2014",
-                    "position": "12th Computer Science",
-                    "company": "Kendriya Vidyalaya A.F.S Akkulam"
+                    "timeline": "Sep 2021 - Aug 2022",
+                    "position": "Intern",
+                    "company": "Datametica Solutions Pvt. Ltd."
                 },
                 "1": {
-                    "timeline": "2014 - 2017",
-                    "position": "Bachelors in Computer Applications (BCA)",
-                    "company": "Christ Nagar College"
+                    "timeline": "Sep 2022 - Jul 2023",
+                    "position": "Data Engineer",
+                    "company": "Datametica Solutions Pvt. Ltd."
                 },
                 "2": {
-                    "timeline": "2017 - 2020",
-                    "position": "Masters in Computer Applications (MCA)",
-                    "company": "College of Engineering Trivandrum"
-                },
-                "3": {
-                    "timeline": "May 2018 - Sep 2018",
-                    "position": "Intern",
-                    "company": "Appfabs"
-                },
-                "4": {
-                    "timeline": "Jun 2020 - Feb 2022",
-                    "position": ["CAD Infrastructure DevOps Engineer", "CAD Engineer"],
-                    "company": "Xilinx"
-                },
-                "5": {
-                    "timeline": "Feb 2022 - Jul 2022",
-                    "position": "Silicon Design Engineer",
-                    "company": "AMD"
-                },
-                "6": {
-                    "timeline": "Jul 2022 - Present",
-                    "position": "Senior Engineer",
-                    "company": "IBM ISDL"
+                    "timeline": "May 2024 - Present",
+                    "position": "Data Engineer Intern",
+                    "company": "Onix"
                 }
             },
-            "services": [
+            "education": {
+                "0": {
+                    "timeline": "2016 - 2018",
+                    "degree": "12th Computer Science",
+                    "school": "Rajiv gandhi Jr. College of Science"
+                },
+                "1": {
+                    "timeline": "2018 - 2022",
+                    "degree": "Bachelors of Engineering in Computer Science",
+                    "school": "Pimpri Chinchwad College of Engineering"
+                },
+                "2": {
+                    "timeline": "2023 - 2025",
+                    "degree": "MS in Computer Science",
+                    "school": "San Jose State University"
+                }
+            },
+            "certifications": [
                 {
-                    "title": "Backend Development",
-                    "description": "I have helped in designing backend for products using python and golang.",
-                    "project_count": "10+",
-                    "icon": "code"
+                    "title": "Google Cloud Professional Data Engineer",
+                    "description": "Expertise in designing, building, and managing data processing systems on Google Cloud.",
+                    "icon": "cloud"
                 },
                 {
-                    "title": "DevOps Engineering",
-                    "description": "I have helped setup automation scripts using python, shell, terraform, ansible and pipeline using DevOps tools.",
-                    "project_count": "8+",
-                    "icon": "infinity"
-                },
-                {
-                    "title": "PCB Designing",
-                    "description": "I have designed PCBs in college and open-source projects.",
-                    "project_count": "5+",
-                    "icon": "microchip"
+                    "title": "Snowflake SnowPro Core Certification",
+                    "description": "Proficiency in implementing Snowflake data cloud solutions.",
+                    "icon": "snowflake"
                 }
             ],
             "skills": [
                 {
-                    "skill_name": "Go Lang",
-                    "image_path": "go.png",
-                    "proficiency": "90%"
+                    "skill_name": "GCP",
+                    "image_path": "gcp.png"
+                },
+                {
+                    "skill_name": "AWS",
+                    "image_path": "aws.png"
+                },
+                {
+                    "skill_name": "Azure",
+                    "image_path": "azure.png"
+                },
+                {
+                    "skill_name": "Snowflake",
+                    "image_path": "snowflake.png"
+                },
+                {
+                    "skill_name": "Airflow",
+                    "image_path": "airflow.png"
                 },
                 {
                     "skill_name": "Python",
-                    "image_path": "python.png",
-                    "proficiency": "90%"
+                    "image_path": "python.png"
                 },
                 {
-                    "skill_name": "Git",
-                    "image_path": "git.png",
-                    "proficiency": "85%"
+                    "skill_name": "Java",
+                    "image_path": "java.png"
                 },
                 {
-                    "skill_name": "Docker",
-                    "image_path": "docker.png",
-                    "proficiency": "85%"
-                },
-                {
-                    "skill_name": "Terraform",
-                    "image_path": "terraform.png",
-                    "proficiency": "80%"
-                },
-                {
-                    "skill_name": "Ansible",
-                    "image_path": "ansible.png",
-                    "proficiency": "70%"
+                    "skill_name": "Beam",
+                    "image_path": "beam.png"
                 }
             ],
-            "portfolio": [
+            "gallery": [
                 {
-                    "project_name": "PCB Business Card",
-                    "project_link": "https://github.com/sashuu69/pcb-business-card",
-                    "project_img_path": "pcb-business-card.jpg",
-                    "tags": ["eaglepcb", "pcb"],
-                    "github_link": "https://github.com/sashuu69/pcb-business-card"
+                    "name": "San Jose State University",
+                    "img_path": "sjsu.jpg"
                 },
                 {
-                    "project_name": "Arduino UNO clone for Industrial Purposes",
-                    "project_link": "https://github.com/sashuu69/sph-mc-one",
-                    "project_img_path": "sph-mc-one.jpg",
-                    "tags": ["eaglepcb", "pcb", "atmega"],
-                    "github_link": "https://github.com/sashuu69/sph-mc-one"
-                },
-                {
-                    "project_name": "Sashwat's Portfolio Website",
-                    "project_link": "https://sashwat.in",
-                    "project_img_path": "portfolio-website.jpg",
-                    "tags": ["python", "docker", "ansible", "terraform"],
-                    "github_link": "https://github.com/sashuu69/portfolio-website"
+                    "name": "Datametica Solutions Pvt. Ltd.",
+                    "img_path": "datametica.jpg"
                 }
             ],
-            "testimonials": [
+            "mentorship": [
                 {
-                    "photo": "gaurav.jpeg",
-                    "username": "Gaurav Kumar",
-                    "designation": "Advisory Software Engineer @ IBM ISDL",
-                    "statement": "I have had the pleasure of working closely with Sashwat at IBM ISDL since June 2022, and I am pleased to recommend him as a highly proficient and dedicated professional. Sashwat is an expert in a wide range of technologies, including Python, Terraform, Golang, Linux, and Restful API's. He consistently demonstrates exceptional skills in these areas, contributing significantly to the success of our projects.Sashwat stands out for his ability to design and implement robust solutions, ensuring the reliability and efficiency of our systems. He has a deep understanding of python, utilizing it to develop scalable and maintainable code. His proficiency in Terraform has been invaluable in automating infrastructure deployment and management. In addition to his technical prowess, Sashwat is a reliable team player. He collaborates effectively with colleagues, providing valuable insights and solutions to complex challenges. His commitment to delivering high-quality work and meeting project deadlines is commendable. With Sashwat's expertise, our team has been able to navigate and implement cutting-edge technologies seamlessly. He has an excellent grasp of Golang, contributing to the development of efficient and performant applications. His proficiency in Linux administration has been pivotal in maintaining a stable and secure environment. Moreover, Sashwat has a solid understanding of Restful API's, enabling seamless communication between different components of our projects. His ability to design and implement RESTful services has greatly enhanced the functionality and interoperability of our systems. I have no doubt that Sashwat will be a valuable asset to any team or project fortunate enough to have him on board. He combines technical expertise with a collaborative spirit, making him an excellent colleague and contributor. I wholeheartedly recommend Sashwat for any role that demands a skilled professional with a proven track record in Python, Terraform, Golang, Linux, and Restful API's."
+                    "title": "Intern Mentorship Program",
+                    "description": "Guided junior colleagues at Datametica in mastering emerging technologies, including modern data engineering tools. Assisted them in developing efficient data pipelines, enhancing their debugging skills, and promoting best practices in coding and process optimization.",
+                    "icon": "cloud"
                 },
                 {
-                    "photo": "rohan.jpeg",
-                    "username": "Rohan Giriraj",
-                    "designation": "Software Engineer @ Autodesk",
-                    "statement": "I've known Sashwat for about 7 years now, dating back to the first year of my undergrad. I've had the pleasure to work with him at Xilinx (now AMD) for about a year. Sashwat is a very hard working, technically sound engineer who ensures that all deliverables are achieved on time and with perfection. He's obsessed with quality and I've had the fortune of having many productive discussions with him on improving my code quality and documentation processes.<br>As a teammate Sashwat is always brimming with optimism and his energy is infectious to others working with him. He has inspired me and other teammates to do better and lead by example. He's always interested in learning the latest tools/languages/frameworks, getting better at the stack he already works on and is always looking to expand his knowledge.<br>Overall, he's a great engineer and above all, a good person."
-                },
-                {
-                    "photo": "jishnu.jpeg",
-                    "username": "Jishnu M",
-                    "designation": "Software Engineer @ ECS Fin",
-                    "statement": "I know Sashwat from our college days and now we are teammates at Xilinx. So I got plenty of chance to work closely with him. He's that kind of a person who's willing to take initiative and responsibility of his work. He's supportive and a good team player. He has also shown his managerial skills by hosting several meetings involving members from different teams. He has worked on several internal projects where his python skills have helped to automate so many tasks as well as develop multiple home brewed tools. He has created several new processes to the team which has added value to the team. One thing I can vouch for him is that he'll be a valuable asset to any team."
-                },
-                {
-                    "photo": "alfin.jpeg",
-                    "username": "Alfin William",
-                    "designation": "DevOps Engineer @ Catalyca",
-                    "statement": "We've joined our hands on several projects in college, and Sashwat is one of the best people I had as a partner. I highly recommend his expertise in python and project management. He is one of the profound people I have met, and his ability to tackle any problem is remarkable and with a warm smile. Also, his passion towards IoT and building DIY's related to it is also a commendable feat. I'm sure Sashwat would become an appreciated member of any team."
+                    "title": "Hindu YUVA Coordinator",
+                    "description": "As a Hindu YUVA Coordinator, mentored new international students by organizing airport pickups, providing course guidance, and facilitating career growth events. Helped them adjust to academic life, navigate cultural differences, and explore career opportunities through networking initiatives.",
+                    "icon": "om"
                 }
             ]
         },

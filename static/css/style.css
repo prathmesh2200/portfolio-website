@@ -30,7 +30,7 @@
 
 */
 :root {
-    --primary_color: #28e98c;
+    --primary_color: #e78e19;
 }
 *,*::before,*::after {
     margin: 0;
@@ -920,6 +920,76 @@ body .body-overlay {
 .resume-area .resume-content .resume-timeline .item:hover .date {
     color: var(--primary_color);
 }
+
+
+
+/* 11 - Experience */
+.experience-area {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.experience-area .experience-content .experience-timeline .item {
+    position: relative;
+    padding-left: 74px;
+    padding-bottom: 68px;
+}
+.experience-area .experience-content .experience-timeline .item:last-child {
+    padding-bottom: 0;
+}
+.experience-area .experience-content .experience-timeline .item:last-child::after {
+    height: calc(100% - 10px);
+}
+.experience-area .experience-content .experience-timeline .item::after {
+    content: '';
+    background: #333333;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    z-index: -1;
+}
+.experience-area .experience-content .experience-timeline .item::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #656565;
+    border-radius: 50%;
+    left: -6px;
+    top: 7px;
+    transition: .3s;
+}
+.experience-area .experience-content .experience-timeline .item .date {
+    display: block;
+    margin-bottom: 28px;
+    transition: .3s;
+}
+.experience-area .experience-content .experience-timeline .item h2 {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.resume-area .resume-content .resume-timeline .item h2 a {
+    color: #fff;
+    display: block;
+}
+.resume-area .resume-content .resume-timeline .item p {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 18px;
+}
+.resume-area .resume-content .resume-timeline .item p:last-child {
+    margin-bottom: 0;
+}
+.resume-area .resume-content .resume-timeline .item:hover::before {
+    background: var(--primary_color);
+}
+.resume-area .resume-content .resume-timeline .item:hover .date {
+    color: var(--primary_color);
+}
+
 
 
 
