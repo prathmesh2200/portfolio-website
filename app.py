@@ -1,10 +1,4 @@
-"""
- * Projecr Name : Portfolio Website
- * Project repository link : https://github.com/sashuu69/portfolio_site
- * File name : app.py
- * Author : Sashwat K
- * Purpose : Host portfolio website using Python Flask
-"""
+
 import json
 
 from flask import Flask, render_template

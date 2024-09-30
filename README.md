@@ -46,18 +46,10 @@ The Portfolio Website is a Python Flask application to host your portfolio.
     ./runner.sh
     ```
 
-## Contributors
-
-1. Sashwat K <sashwat0001@gmail.com>
-
 ## Other Info
 
 If you face any bugs or want to request a new feature, please create an issue under the repository and provide appropriate labels respectively. If you want to do these by yourself, feel free to raise a PR and I will do what is necessary.
 
 If you want to support me, donations will be helpful.
 
-## Other Repos
 
-1. [sashuu69/portfolio-website-docker-compose](https://github.com/sashuu69/portfolio-website-docker-compose) - The docker-compose code to bring up the portfolio website
-2. [sashuu69/portfolio-website-infrastructure/](https://github.com/sashuu69/portfolio-website-infrastructure) - The terraform and ansible code to bring portfolio website on AWS
-3. [sashuu69/portfolio-website-ssl-cert-generator](https://github.com/sashuu69/portfolio-website-ssl-cert-generator) - The terraform code to generate/renew SSL certificates
