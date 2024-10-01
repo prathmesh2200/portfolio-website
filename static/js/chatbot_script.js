@@ -16,17 +16,15 @@ const createChatLi = (message, className) => {
     return chatLi;
 }
 
-const generateResponse = (chatElement) => {
+const generateResponse = (chatElement, response) => {
     const messageElement = chatElement.querySelector("p");
-
-    messageElement.textContent = "The answer is yes";
-
+    messageElement.textContent = response; // Set the GPT response
     chatbox.scrollTo(0, chatbox.scrollHeight);
 }
 
-const handleChat = () => {
+const handleChat = async () => {
     userMessage = chatInput.value.trim();
-    if(!userMessage) return;
+    if (!userMessage) return;
 
     // Clear the input textarea and set its height to default
     chatInput.value = "";
@@ -36,12 +34,31 @@ const handleChat = () => {
     chatbox.appendChild(createChatLi(userMessage, "outgoing"));
     chatbox.scrollTo(0, chatbox.scrollHeight);
 
-    setTimeout(() => {
+    setTimeout(async () => {
         // Display "Thinking..." message while waiting for the response
         const incomingChatLi = createChatLi("Thinking...", "incoming");
         chatbox.appendChild(incomingChatLi);
         chatbox.scrollTo(0, chatbox.scrollHeight);
-        generateResponse(incomingChatLi);
+
+        // Call the Python backend to get the response
+        try {
+            const response = await fetch('/chat', { // Use relative URL since it's on the same Flask app
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ message: userMessage })
+            });
+
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+
+            const data = await response.json();
+            generateResponse(incomingChatLi, data.reply); // Use the response from the API
+        } catch (error) {
+            generateResponse(incomingChatLi, "Sorry, something went wrong."); // Handle errors
+        }
     }, 600);
 }
 
