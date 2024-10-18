@@ -1,0 +1,6 @@
+runtime: python311  # or your desired Python version
+entrypoint: gunicorn -b :$PORT run:app  # Replace `main` with your main file name and `app` with your Flask app object
+
+handlers:
+- url: /.*
+  script: auto
