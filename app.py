@@ -1,6 +1,6 @@
 
 import json
-import chatbot
+# import chatbot
 import openai
 from flask import Flask, render_template, request, jsonify
 import sqlite3
@@ -85,16 +85,16 @@ def index() -> str:
     """Definition to render root HTML page"""
     return render_template('index.html', **DICTDATA)
 
-@app.route('/get_response', methods=['POST'])
-def get_response():
-    user_message = request.json.get('message')
-    bot_response = chatbot.get_response(user_message)  # Chatbot logic
-    return jsonify({'response': bot_response})
+# @app.route('/get_response', methods=['POST'])
+# def get_response():
+#     user_message = request.json.get('message')
+#     bot_response = chatbot.get_response(user_message)  # Chatbot logic
+#     return jsonify({'response': bot_response})
 
-@app.route("/bio_instagram")
-def instgram_bio_page() -> str:
-    """Definition to render Instagram Bio HTML page"""
-    return render_template("instagram_bio.html", **DICTDATA)
+# @app.route("/bio_instagram")
+# def instgram_bio_page() -> str:
+#     """Definition to render Instagram Bio HTML page"""
+#     return render_template("instagram_bio.html", **DICTDATA)
 
 @app.route('/chat', methods=['POST'])
 def chat_with_openai():
@@ -122,5 +122,3 @@ def chat_with_openai():
         return jsonify(reply=f"An error occurred: {str(e)}")
 
 
-if __name__ == "__main__":
-    app.run(threaded=True, debug=True)

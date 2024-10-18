@@ -34,40 +34,6 @@
                 "about_tag_line": "Every great Idea begin with<br>an even <span>better story</span>",
                 "about_description": "Prathmesh Pethkar is a passionate software developer and a creative thinker, dedicated to turning complex problems into elegant solutions. With a keen interest in machine learning and big data, he constantly seeks to expand his knowledge and skills. When he’s not coding, you can find him building innovative hardware projects or enjoying the serenity of the outdoors on his bike. Prathmesh believes in the power of collaboration and loves to mentor others on their learning journeys."
             },
-            "experience": {
-                "0": {
-                    "timeline": "Sep 2021 - Aug 2022",
-                    "position": "Intern",
-                    "company": "Datametica Solutions Pvt. Ltd."
-                },
-                "1": {
-                    "timeline": "Sep 2022 - Jul 2023",
-                    "position": "Data Engineer",
-                    "company": "Datametica Solutions Pvt. Ltd."
-                },
-                "2": {
-                    "timeline": "May 2024 - Present",
-                    "position": "Data Engineer Intern",
-                    "company": "Onix"
-                }
-            },
-            "education": {
-                "0": {
-                    "timeline": "2016 - 2018",
-                    "degree": "12th Computer Science",
-                    "school": "Rajiv gandhi Jr. College of Science"
-                },
-                "1": {
-                    "timeline": "2018 - 2022",
-                    "degree": "Bachelors of Engineering in Computer Science",
-                    "school": "Pimpri Chinchwad College of Engineering"
-                },
-                "2": {
-                    "timeline": "2023 - 2025",
-                    "degree": "MS in Computer Science",
-                    "school": "San Jose State University"
-                }
-            },
             "certifications": [
                 {
                     "title": "Google Cloud Professional Data Engineer",
@@ -136,9 +102,6 @@
                     "icon": "om"
                 }
             ]
-        },
-        "instagram_bio": {
-            "tag_line": "SDE 👨‍💻 by Profession<br>Adrenaline Junkie 🏍 ️🚴 by Passion!<br><br>From coding to cornering, I do it all!<br>Life's an adventure and I'm the coder in the fast lane!"
         }
     }
 }
